@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.top-page{
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1{
+    font-size: 28px;
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    padding: 0 14px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 40px;
+    align-items: center;
+}
+
+.head-profile-user{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.Photo-Profile{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.nome{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.Photo-Post{
+
+    width: 100%;
+    max-height: 450px;
+    border-radius: 6%;
+    object-fit: cover;
+}
+
+.Photo-Post:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+.reacts{
+    margin: 10px 0;
+}
+
+.link{
+    text-decoration: none;
+    color: #121212;
+}
